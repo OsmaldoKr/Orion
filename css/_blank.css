@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+.container {
+    max-width: 300px;
+    padding: 120px;
+    background-color:#6a6a6a;
+}
+
+h2 {
+    text-align: center;
+    color: azure;
+
+    font-size: 40px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    padding-left:25px;
+    padding-right:15px ;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(255, 89, 0);
+    transition: .5s;
+}
+
+footer {
+    background-color: #111111;
+    color: #fff;
+    text-align: center;
+    margin-top: 9rem;
+    padding: 12.4px;
+}
