@@ -2266,6 +2266,9 @@ textarea.input {
     border-radius: 25px;
     padding: 7px;
   }
+  .img_app img{
+    width: 15rem;
+  }
 }
 
 @media only screen and (max-width: 480px) {
