@@ -2168,6 +2168,13 @@ textarea.input {
   margin: 15px 0px;
 }
 
+.container_info{
+  margin:10rem;
+  display: flex;
+}
+.img_app{
+  display: grid;
+}
 .img_app button{
   background-color: #c60000;
   border: none;
@@ -2266,8 +2273,16 @@ textarea.input {
     border-radius: 25px;
     padding: 7px;
   }
+
+  .container_info{
+    margin:5rem;
+    display: flex;
+  }
+  .img_app{
+    display: grid;
+  }
   .img_app img{
-    width: 15rem;
+    width: 10rem;
   }
 }
 
@@ -2282,6 +2297,13 @@ textarea.input {
   .store-pagination {
     float: none;
     margin-top: 10px;
+  }
+  .container_info{
+    margin:3rem;
+    display: flex;
+  }
+  .img_app{
+    display: grid;
   }
   .img_app button:hover{
     background-color:white;
