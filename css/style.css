@@ -2164,6 +2164,25 @@ textarea.input {
   margin: 15px 0px;
 }
 
+.img_app button{
+  background-color: #c60000;
+  border: none;
+  margin-top:25px;
+  font-size: 25px;
+  color: white;
+  border-radius: 25px;
+  padding: 15px;
+}
+
+.img_app button:hover{
+  background-color:white;
+  border: black solid 2px;
+  margin-top:25px;
+  font-size: 25px;
+  color: black;
+  border-radius: 25px;
+  padding: 15px;
+}
 /*=========================================================
 	13 -> RESPONSIVE
 ===========================================================*/
@@ -2196,6 +2215,34 @@ textarea.input {
     margin-top: 30px;
     margin-bottom: 30px;
   }
+  .title_app h2{
+    font-size:4rem;
+  }
+  .title_app p{
+    font-size:2rem;
+  }
+  .img_app img{
+    width: 22rem;
+  }
+
+  .img_app button{
+    background-color: #c60000;
+    border: none;
+    margin-top:25px;
+    font-size: 15px;
+    color: white;
+    border-radius: 25px;
+    padding: 15px;
+  }
+  .img_app button:hover{
+    background-color:white;
+    border: black solid 2px;
+    margin-top:25px;
+    font-size: 25px;
+    color: black;
+    border-radius: 25px;
+    padding: 15px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -2205,6 +2252,15 @@ textarea.input {
   }
   .section-tab-nav li {
     margin-top: 10px;
+  }
+  .img_app button:hover{
+    background-color:white;
+    border: black solid 2px;
+    margin-top:25px;
+    font-size: 25px;
+    color: black;
+    border-radius: 25px;
+    padding: 7px;
   }
 }
 
@@ -2219,5 +2275,14 @@ textarea.input {
   .store-pagination {
     float: none;
     margin-top: 10px;
+  }
+  .img_app button:hover{
+    background-color:white;
+    border: black solid 2px;
+    margin-top:25px;
+    font-size: 25px;
+    color: black;
+    border-radius: 25px;
+    padding:7px;
   }
 }
