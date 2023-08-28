@@ -711,13 +711,17 @@ textarea.input {
     padding: 15px;
     color: #FFF;
   }
+  .img_app img{
+    margin: 10px;
+    width: 30%;
+  }
 }
 
 /*=========================================================
 	03.5 -> info app
 ===========================================================*/
 .container_info{
-  margin: 20rem;
+  margin: 10rem;
   display: flex;
   align-items: center;
 }
